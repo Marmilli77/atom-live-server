@@ -1,4 +1,6 @@
-# atom-live-server package
+# atom-live-server-plus
+
+Forked from [jas-chen/atom-live-server](https://github.com/jas-chen/atom-live-server).
 
 Launch a simple development http server with live reload capability.
 
