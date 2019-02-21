@@ -5,7 +5,7 @@
     "ctrl-alt-5": "atom-live-server:start-5000",
     "ctrl-alt-8": "atom-live-server:start-8000",
     "ctrl-alt-9": "atom-live-server:start-9000",
-    "ctrl-alt-l": "atom-live-server:startServer",
-    "ctrl-alt-q": "atom-live-server:stopServer"
+    "ctrl-alt-l": "atom-live-server:start-server",
+    "ctrl-alt-q": "atom-live-server:stop-server"
   }
 }

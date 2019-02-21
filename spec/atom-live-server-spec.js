@@ -1,6 +1,6 @@
 'use babel';
 
-import AtomLiveServer from '../lib/atom-live-server';
+import AtomLiveServer from '../lib/atom-live-server-plus';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -12,7 +12,7 @@ describe('AtomLiveServer', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('atom-live-server');
+    activationPromise = atom.packages.activatePackage('atom-live-server-plus');
   });
 
   describe('when the atom-live-server:toggle event is triggered', () => {
